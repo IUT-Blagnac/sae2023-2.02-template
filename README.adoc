@@ -218,7 +218,7 @@ Voici les pré-requis pour exécuter nos codes d'évaluation.
 
 === Notation
 
-- **90%** de la notation portera sur votre rapport de la phase 2 et vos analyses (véracité, pertinence, qualité, ajout de critères pertinents, ...). L'évaluation comportera un oral en semaine 25.
+- **90%** de la notation portera sur votre rapport de la phase 2 et vos analyses (véracité, pertinence, qualité, ajout de critères pertinents, ...). L'évaluation comportera un oral en semaine 25 (lors des séances encadrées).
 - **10%** de la notation portera sur le classement de votre algorithme de la phase 1 (pertinence de la catégorie choisie, évaluation/classement par les pairs, ...)
 - **Bonus** pour les 10 premiers de chaque catégorie du concours de codage et ce, pour chaque "type" (les 1à meilleurs, et les 10 pires)
 - **Bonus** pour ceux qui auront proposés plusieurs algos différents (indépendamment de leur classement final)
