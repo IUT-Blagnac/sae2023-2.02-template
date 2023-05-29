@@ -26,7 +26,6 @@ dependency-reduced-pom.xml
 hs_err_pid*
 
 # Divers
-test
 README.pdf
 .DS_Store
 .vscode
