@@ -91,10 +91,19 @@ Un explorateur à découvert un texte d'un peuple ancien (`texte`) rempli de mot
 Il pense avoir trouvé l'ensemble des lettres utilisées, ainsi que l'ordre (`ordre`) utilisé par ce peuple pour les classer et ainsi réaliser leurs dictionnaires.
 Il  vous demande d'écrire une fonction (java ou C) qui classe les mots d'un `texte` en fonction de `ordre` (comme il n'est pas sûr de lui il veut faire plusieurs essais). 
 
+Exemple d'input::
+texte = "Il fait beau aujourd'hui"
+ordre = ['f', 'I', 'a', 'b']
+Exemple d'ouput::
+["fait", "Il", "aujour", "beau", "hui"]
+
 Les contraintes sont les suivantes :
 
 - votre algorithme doit être écrit dans l'un des langages suivants au choix : java, ou C
 - il doit permettre à l'un des 2 programmes principaux fournis (java ou C) de fonctionner (respect donc des noms de classes, méthodes ou fonctions en conséquence). Le choix du nom de la fonction n'est donc pas libre!
+- le texte est donné sous forme d'une chaîne de caractères
+- l'ordre est donné sous forme de liste de lettres
+- si l'ordre n'est pas complet, tout mot commençant par une lettre "inconnue" est placé après le dernier classé, sans contrainte d'ordre vis-à-vis des autres non-classés
 
 Vu qu'il existe de nombreuses façons de résoudre ce problème, vous devrez soumettre, pour chaque catégorie, votre meilleure solution et votre pire  solution.
 
@@ -121,6 +130,7 @@ Par exemple pour votre meilleur algorithme java en simplicité, vous le déposer
 ====
 - Si vous en déposez plusieurs d'une même catégorie/type, numérotez-lez (`simplicite-meilleur1.java` et `simplicite-meilleur2.java`)
 - Ne mettez aucun commentaire ou élément qui *permettent de vous identifier* dans le code!
+- Pensez à déposer aussi les `.h` pour les fonctions C.
 ====
 
 === Phase 2 : comparaison et évaluation des solutions
@@ -154,9 +164,10 @@ WARNING: Il conviendra de prendre des mesures sur des données plus ou moins gra
 // == Deliverables
 == Livrables
 
-Vous utiliserez le dépôt initial qui vous aura été attribué via classroom pour pousser vos codes et vos livrables :
+Vous utiliserez le dépôt initial qui vous aura été attribué via classroom pour pousser vos codes et vos livrables (en plus des dépôts moodle).
+//https://classroom.github.com/a/UXmIvsjX
 
-=== Phase 1 (deadline : **vendredi 10 juin 2022** à minuit)
+=== Phase 1 (deadline : **samedi 3 juin 2023** à minuit)
 
 * [ ] Votre ou vos algorithmes en précisant les éléments du tableau ci-dessous :
 
