@@ -72,7 +72,7 @@ Plus précisément :
 //   - [Tutorial Handout](./docs/handout.pdf)
 
 //== Prerequisites
-// == Prérequis
+// == Pré-requis
 
 == Description
 
@@ -103,7 +103,7 @@ Les contraintes sont les suivantes :
 
 - votre algorithme doit être écrit dans l'un des langages suivants au choix : java, ou C
 - il doit permettre à l'un des 2 programmes principaux fournis (java ou C) de fonctionner (respect donc des noms de classes, méthodes ou fonctions en conséquence). Le choix du nom de la fonction n'est donc pas libre!
-- le texte est donné sous forme d'une chaîne de caractères
+- le texte est donné sous forme d'une chaîne de caractères (sans accents pour éviter les soucis)
 - l'ordre est donné sous forme de liste de lettres
 - si l'ordre n'est pas complet, tout mot commençant par une lettre "inconnue" est placé après le dernier classé, sans contrainte d'ordre vis-à-vis des autres non-classés
 
@@ -155,7 +155,7 @@ Lisibilité du code::
 Qualité du code::
   Vous utiliserez des outils open source de mesure de qualité de code (e.g., {codacy}).
 Efficacité::
-  Il s'agit d'évaluer la complexité algorithmique de la solution (O(n^2) ou O(nlog(n))). Si on double par exemple la taille de la donnée en entrée, est-ce qu'on double le temps de calcul ?
+  Il s'agit d'évaluer la complexité algorithmique de la solution (`O(n^2)` ou `O(nlog(n))`). Si on double par exemple la taille de la donnée en entrée, est-ce qu'on double le temps de calcul ?
 Sobriété numérique::
   Cela devient un critère de plus en plus important. Certains outils permettent de donner une mesure de la consommation en ressources d'un algorithme (e.g., {joular}).
 Temps d'exécution::
