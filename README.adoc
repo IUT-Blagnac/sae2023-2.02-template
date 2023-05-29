@@ -80,22 +80,24 @@ Cette SAÉ se déroule en 2 phases.
 
 === Phase 1 : concours d'algorithme
 
-Vous allez devoir soumettre un algorithme qui résout un problème simple mais qui peut se régler avec plusieurs solutions différentes. 
+Vous allez devoir soumettre un algorithme qui résout un problème simple (niveau BUT S1) mais qui peut se régler avec plusieurs solutions différentes. 
 Vous avez la semaine 22 (non encadrée, mais questions sur Discord bienvenues) pour réaliser et soumettre votre (ou vos) solutions. 
 
-WARNING: Cette 1ère phase est **Individuelle**.
+WARNING: Cette 1ère phase est **individuelle**.
 
 Le problème est le suivant :
 
-Un explorateur à découvert un texte d'un peuple ancien (`texte`) rempli de mots (ensembles contigus de lettres).
-Il pense avoir trouvé l'ensemble des lettres utilisées, ainsi que l'ordre (`ordre`) utilisé par ce peuple pour les classer et ainsi réaliser leurs dictionnaires.
+Un explorateur a découvert un texte d'un peuple ancien (`texte`) rempli de mots (ensembles contigus de lettres).
+Il pense avoir trouvé l'ensemble des lettres premières utilisées, ainsi que l'ordre (`ordre`) utilisé par ce peuple pour les classer et ainsi réaliser leurs dictionnaires.
 Il  vous demande d'écrire une fonction (java ou C) qui classe les mots d'un `texte` en fonction de `ordre` (comme il n'est pas sûr de lui il veut faire plusieurs essais). 
 
 Exemple d'input::
-texte = "Il fait beau aujourd'hui"
-ordre = ['f', 'I', 'a', 'b']
+texte = `"Il fait beau aujourd'hui comme en aout"`
++
+ordre = `['f', 'I', 'z', 'u', 'k', 'a', 'b', 'o']`
+
 Exemple d'ouput::
-["fait", "Il", "aujour", "beau", "hui"]
+`["fait", "Il", "aujourd", "aout", "beau", "hui", "comme", "en"]`
 
 Les contraintes sont les suivantes :
 
@@ -118,11 +120,11 @@ Sobriété numérique::
 
 NOTE: Vous pouvez soumettre plusieurs algorithmes dans plusieurs catégories pour maximiser vos chances de gagner le concours et obtenir des points bonus.
 
-WARNING: Nous sommes conscients que vous pouvez vous aider de ChatGPT ou du codes de vos collègues, mais la notation qui a le plus gros coefficient est l'oral final. Si vous êtes incapable d'expliquer vos propres résultats, cette note s'approchera de 0.
+WARNING: Nous sommes conscients que vous pouvez vous aider de ChatGPT ou des codes de vos collègues, mais la notation qui a le plus gros coefficient est l'oral final. Si vous êtes incapable d'expliquer vos propres résultats, cette note s'approchera de 0.
 
 ==== Dépôt
 
-Vous devrez déposer sur https://webetud.iut-blagnac.fr/mod/assign/view.php?id=28090[WebEtud], avant *samedi 3 juin à 23h59*, vos fichiers de solutions en les nommant ainsi (pour le dépôt) : [efficacite|sobriete|simplicite]-[meilleur|pire].[java|c].
+Vous devrez déposer sur https://webetud.iut-blagnac.fr/mod/assign/view.php?id=28090[WebEtud], avant *samedi 3 juin à 23h59*, vos fichiers de solutions en les nommant ainsi (pour le dépôt) : `[efficacite|sobriete|simplicite]-[meilleur|pire].[java|c]``.
 
 Par exemple pour votre meilleur algorithme java en simplicité, vous le déposerez avec le nom `simplicite-meilleur.java`.
 
