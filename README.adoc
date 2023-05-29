@@ -87,11 +87,14 @@ WARNING: Cette 1ère phase est **Individuelle**.
 
 Le problème est le suivant :
 
+Un explorateur à découvert un texte d'un peuple ancien (`texte`) rempli de mots (ensembles contigus de lettres).
+Il pense avoir trouvé l'ensemble des lettres utilisées, ainsi que l'ordre (`ordre`) utilisé par ce peuple pour les classer et ainsi réaliser leurs dictionnaires.
+Il  vous demande d'écrire une fonction (java ou C) qui classe les mots d'un `texte` en fonction de `ordre` (comme il n'est pas sûr de lui il veut faire plusieurs essais). 
 
 Les contraintes sont les suivantes :
 
 - votre algorithme doit être écrit dans l'un des langages suivants au choix : java, ou C
-- il doit permettre à l'un des 2 programmes principaux fournis (java ou C) de fonctionner (respect donc des noms de classes, méthodes ou fonctions en conséquence)
+- il doit permettre à l'un des 2 programmes principaux fournis (java ou C) de fonctionner (respect donc des noms de classes, méthodes ou fonctions en conséquence). Le choix du nom de la fonction n'est donc pas libre!
 
 Vu qu'il existe de nombreuses façons de résoudre ce problème, vous devrez soumettre, pour chaque catégorie, votre meilleure solution et votre pire  solution.
 
@@ -107,6 +110,18 @@ Sobriété numérique::
 NOTE: Vous pouvez soumettre plusieurs algorithmes dans plusieurs catégories pour maximiser vos chances de gagner le concours et obtenir des points bonus.
 
 WARNING: Nous sommes conscients que vous pouvez vous aider de ChatGPT ou du codes de vos collègues, mais la notation qui a le plus gros coefficient est l'oral final. Si vous êtes incapable d'expliquer vos propres résultats, cette note s'approchera de 0.
+
+==== Dépôt
+
+Vous devrez déposer sur https://webetud.iut-blagnac.fr/mod/assign/view.php?id=28090[WebEtud], avant *samedi 3 juin à 23h59*, vos fichiers de solutions en les nommant ainsi (pour le dépôt) : [efficacite|sobriete|simplicite]-[meilleur|pire].[java|c].
+
+Par exemple pour votre meilleur algorithme java en simplicité, vous le déposerez avec le nom `simplicite-meilleur.java`.
+
+[NOTE]
+====
+- Si vous en déposez plusieurs d'une même catégorie/type, numérotez-lez (`simplicite-meilleur1.java` et `simplicite-meilleur2.java`)
+- Ne mettez aucun commentaire ou élément qui *permettent de vous identifier* dans le code!
+====
 
 === Phase 2 : comparaison et évaluation des solutions
 
